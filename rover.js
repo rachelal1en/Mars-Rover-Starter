@@ -48,12 +48,6 @@ class Rover {
       
 }
 
-let commands = [new Command('STATUS_CHECK'), new Command('MOVE', 85), new Command('STATUS_CHECK'), new Command('MODE_CHANGE', 'LOW_POWER'), new Command('STATUS_CHECK'), new Command('MOVE', 32), new Command('STATUS_CHECK')];
-let message = new Message('Test message', commands);
-let rover = new Rover(1);
-let response = rover.receiveMessage(message);
-console.log(response.results);
-
 
 
 

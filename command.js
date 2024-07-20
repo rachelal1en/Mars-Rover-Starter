@@ -8,9 +8,6 @@ class Command {
    }
  
  }
- 
-// let MOVE = new Command(position, 'LOW_POWER');
-// let moveCommand = new Command('MOVE', 12000);
-// console.log(modeCommand, moveCommand);
+
 
  module.exports = Command;
