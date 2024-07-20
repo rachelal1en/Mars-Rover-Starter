@@ -36,7 +36,7 @@ class Rover {
                })
             }
             else {
-               this.position += message.commands[i].value;
+               this.position = message.commands[i].value;
                response.results.push({
                   completed: true
                })

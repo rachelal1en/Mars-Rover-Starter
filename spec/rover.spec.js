@@ -78,6 +78,6 @@ describe("Rover class", function() {
     let message = new Message('Test message', commands);
     let rover = new Rover(1);
     let response = rover.receiveMessage(message);
-    expect(response.results[1].roverStatus.position).toEqual(33);
+    expect(response.results[1].roverStatus.position).toEqual(32);
   });
 });
